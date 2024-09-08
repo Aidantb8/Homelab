@@ -60,5 +60,5 @@ Welcome to my homelab project repository! This repository documents the setup, c
 
 - **Networking**: Resolved initial RCON connectivity issues by ensuring services were on the same Docker network.
 - **Storage Resizing**: Successfully resized partitions within the VM after resizing the host partition.
-- **Remote Access**: Achieved secure remote access to the Jellyfin server using Tailscale.
+- **Remote Access**: Achieved secure remote access to multiple services using Tailscale.
 
