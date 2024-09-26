@@ -27,7 +27,7 @@ Welcome to my homelab project repository! This repository documents the setup, c
 
 - **Minecraft Server**: Set up using Docker Compose with RCON connectivity for remote management.
 - **Jellyfin**: A media server for streaming content, accessible via Tailscale VPN.
-- **Filebrowser**: A web-based file manager for accessing files stored on the NAS (`/dev/sdb1`).
+- **Filebrowser**: A web-based file manager for accessing files stored on the NAS (`/dev/sdb*`).
 - **Tailscale**: A VPN solution for secure remote access to the homelab without exposing services to the broader internet.
 
 ### Virtual Machines
