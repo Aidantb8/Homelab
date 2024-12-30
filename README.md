@@ -55,7 +55,7 @@ Welcome to my homelab project repository! This repository documents the setup, c
 
 ## Future Plans
 
-- **Security Enhancements**: Integrating Pi-hole with Traefik for ad-blocking and reverse proxy management.
+- **Security Enhancements**: Integrating Pi-hole with Traefik for ad-blocking and reverse proxy management. As well as integrating HeadScale
 
 ## Challenges and Solutions
 
