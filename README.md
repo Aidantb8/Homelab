@@ -32,6 +32,7 @@ Welcome to my homelab project repository! This repository documents the setup, c
 
 ### Virtual Machines
 
+- **Debian12 VM**: A VM solely dedicated to running and managing docker containers, primarily through the portainer WebUI.
 - **REMnux VM**: A specialized VM for malware analysis. REMnux is a Linux distribution tailored for reverse-engineering and analyzing malicious software. This VM uses tools like Ghidra, IDA Free, and various static and dynamic analysis utilities.
 - **Kali VM**: A VM for penetration testing and ethical hacking, equipped with tools like Metasploit, Burp Suite, and Nmap for comprehensive security assessments.
 
