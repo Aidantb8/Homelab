@@ -32,6 +32,7 @@ Welcome to my homelab project repository! This repository documents the setup, c
 - **Jellyfin**: A media server for streaming content, accessible via Tailscale VPN.
 - **Filebrowser**: A web-based file manager for accessing files stored on the NAS (`/dev/sdb*`).
 - **Tailscale**: A VPN solution for secure remote access to the homelab without exposing services to the broader internet.
+- **Immich**: A self-hosted photo and video backup solution, designed for automatic uploads from mobile devices, with AI-powered search and tagging for easy organization.
 
 ---
 
