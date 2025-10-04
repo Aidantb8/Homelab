@@ -22,12 +22,19 @@ Welcome to my homelab project repository! This repository documents the setup, c
   - **Motherboard**: MSI MAG B650M MORTAR WIFI Micro ATX
   
   - **Memory**: **96 GB** (2 x 48 GB) DDR5-6400 CL32 G.Skill Ripjaws S5
+  
   - **Video Card**: Sparkle ECO Arc A310 4 GB
+  
   - **Power Supply**: Corsair SF750 (2024) 750 W 80+ Platinum
+  
   - **Case**: Fractal Design Node 804
+  
   - **HBA**: LSI Logic Controller Card 9300-8i (12Gb/s)
+  
   - **Storage**:
+  
     - **OS/High-Speed**: **Samsung 990 Pro 2 TB** M.2 NVMe SSD (for Proxmox and high-priority Docker containers)
+    
     - **NAS/Media Storage**: Three **Seagate IronWolf Pro NAS 24 TB** HDDs (Total 72 TB raw storage, managed via HBA)
 
 ---
