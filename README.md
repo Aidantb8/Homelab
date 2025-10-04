@@ -46,7 +46,14 @@ Welcome to my homelab project repository! This repository documents the setup, c
 - **Filebrowser**: A web-based file manager for accessing files stored on the NAS drives.
 - **Tailscale**: A **VPN solution** for secure remote access to the homelab without exposing services to the broader internet.
 - **Immich**: A self-hosted photo and video backup solution, designed for automatic uploads from mobile devices, with **AI-powered search and tagging** for easy organization.
-- **Caddy**: An alternative reverse proxy to Traefik/Nginx-Proxy-Manager. Currently used for its simpler syntax and **automatic HTTPS/TLS certificate provisioning** for containers on the `caddy_network`.
+- **Pi-hole**: A network-wide ad-blocking and DNS sinkhole for traffic filtering.
+- **Nginx Proxy Manager (NPM)**: A reverse proxy management tool for secure external access. It is currently running alongside **Caddy**, which is used for its simpler syntax and **automatic HTTPS/TLS certificate provisioning** for containers on the `caddy_network`.
+- **n8n**: A powerful workflow automation tool used to connect and automate various services across the homelab and the web.
+- **Arr Stack (Sonarr, Radarr, Lidarr)**: A suite of applications for managing and automating media downloading and organization for TV shows, movies, and music.
+- **Jellyseerr**: A request management and media discovery tool that integrates with Jellyfin and the Arr Stack, allowing users to easily request new content.
+- **Memos**: A self-hosted, lightweight note-taking and knowledge-base service for quick personal documentation.
+- **VS Code Server**: A backend service that enables access to the full Visual Studio Code experience through a web browser, used for remote development and configuration editing.
+- **Uptime Kuma**: A self-hosted monitoring tool to track the uptime and status of all homelab services with notifications.
 
 ---
 
@@ -72,7 +79,7 @@ Welcome to my homelab project repository! This repository documents the setup, c
 
 ### Storage Management
 
-- **Backup Solutions**: Proxmox backups are managed by a Docker container running **PBS (Proxmox Backup Server)**. Utilizes a dedicated storage volume (from the 66 TB pool) with weekly backups.
+- **Backup Solutions**: Proxmox backups are managed by a Docker container running **PBS (Proxmox Backup Server)**. Utilizes a dedicated storage volume (from the 72 TB pool) with weekly backups.
 - **Redundancy**: Dedicated backup server associated with the Minecraft servers to ensure no loss of progress and data redundancy in case of file corruption.
 
 ---
@@ -82,7 +89,7 @@ Welcome to my homelab project repository! This repository documents the setup, c
 - **Directory Structure**: Docker containers are organized within `/user/docker_projects`, ensuring a clean and manageable environment.
 - **Key Configurations**:
   - **Custom Modded Minecraft Server (x2)**: Managed with Docker Compose for easy deployment, ensuring connectivity by placing all services on the same Docker network (`atbcraft_default` and `cobblemon_default`).
-  - **Jellyfin**: Managed via Filebrowser NAS, with a large media library hosted and remotely accessible via Tailscale VPN.
+  - **Jellyfin**: Primarily managed through the Arr Stack, which is parsed through filebrowser for manual file additions if necessary. Utilizes atomic moves in order for the file to appear in two places at once. 
 
 ---
 
