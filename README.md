@@ -14,9 +14,13 @@ Welcome to my homelab project repository! This repository documents the setup, c
 
 - **Host Machine**: Hosted on a **Proxmox VE** environment, running Debian 12 (Bookworm).
 - **Hardware**:
+
   - **CPU**: **AMD Ryzen 9 7950X** (16-Core, 4.5 GHz)
+  
   - **CPU Cooler**: Noctua NH-U12A chromax.black
+  
   - **Motherboard**: MSI MAG B650M MORTAR WIFI Micro ATX
+  
   - **Memory**: **96 GB** (2 x 48 GB) DDR5-6400 CL32 G.Skill Ripjaws S5
   - **Video Card**: Sparkle ECO Arc A310 4 GB
   - **Power Supply**: Corsair SF750 (2024) 750 W 80+ Platinum
