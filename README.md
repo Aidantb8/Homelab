@@ -4,7 +4,7 @@ Documentation and configuration for my homelab setup, including Docker services,
 
 ## My Homelab Project
 
-Welcome to my homelab project repository! This repository documents the setup, configuration, and management of my homelab environment, which includes various services running on a Proxmox VM with Docker containers. The homelab is designed for personal use, experimentation, **cybersecurity research**, and self-hosting various applications.
+Welcome to my homelab project repository! This repository documents the setup, configuration, and management of my homelab environment, which includes various services running on Docker Containers via several VM's within a baremetal Proxmox installation. The homelab is designed for personal use, experimentation, **cybersecurity research**, and self-hosting various applications.
 
 ---
 
