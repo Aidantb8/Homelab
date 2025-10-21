@@ -73,14 +73,14 @@ Welcome to my homelab project repository! This repository documents the setup, c
 - **Pi-hole**: A **network-wide ad-blocking and DNS sinkhole**. It will be configured as the primary DNS server for the network to block advertisements, trackers, and malicious domains at the network level.
 - **Nginx Proxy Manager (NPM)**: A reverse proxy management tool that simplifies exposing internal services securely. It is used to manage hostnames, automatically obtain **Let's Encrypt SSL certificates**, and forward external requests to the correct internal Docker container or VM.
 - **Hostname Management**: Hostnames of Docker containers can be directly edited through Portainer's Network settings.
-- **VLAN Management**: (tbd) Planned for management through a switch (model to be determined), setting 4 distinct VLANs: **Untrusted LAN**, **Trusted LAN**, **IOT LAN**, and **Outward Facing Service LAN**.
+- **VLAN Management**: (tbd) Planned for management through a switch (model to be determined), setting 4 distinct VLANs: **Untrusted VLAN**, **Trusted VLAN**, **IOT VLAN**, and **Outward Facing Service (Server) VLAN**.
 
 ---
 
 ### Storage Management
 
-- **Backup Solutions**: Proxmox backups are managed by a Docker container running **PBS (Proxmox Backup Server)**. Utilizes a dedicated storage volume (from the 72 TB pool) with weekly backups.
-- **Redundancy**: Dedicated backup server associated with the Minecraft servers to ensure no loss of progress and data redundancy in case of file corruption.
+- **Backup Solutions**: Proxmox backups are managed by a VM running **PBS (Proxmox Backup Server)**. Utilizes a dedicated storage volume (from the 72 TB pool) with weekly backups.
+- **Redundancy**: Dedicated backup server associated with each Minecraft server to ensure no loss of progress and data redundancy in case of file corruption.
 
 ---
 
